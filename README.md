@@ -68,6 +68,7 @@ ViewController
 LoginViewController
 
 로그인 및 회원가입 화면
+<img width="303" alt="스크린샷 2025-06-17 오전 3 11 53" src="https://github.com/user-attachments/assets/191eb797-ee86-4d3b-86df-0d0c9a31d524" />
 
 <img width="306" alt="스크린샷 2025-06-17 오전 3 12 04" src="https://github.com/user-attachments/assets/ca519cce-1129-417a-9381-983a80995519" />
 

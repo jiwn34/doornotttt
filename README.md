@@ -1,4 +1,4 @@
-###doornotttt
+<img width="425" alt="스크린샷 2025-06-17 오전 7 31 42" src="https://github.com/user-attachments/assets/ff246fc2-ffcd-4857-b178-c35b1c215931" /><img width="258" alt="스크린샷 2025-06-17 오전 10 46 44" src="https://github.com/user-attachments/assets/a93b17a0-9d1b-43f4-ba31-6d0301112f58" />###doornotttt
 DoOrNot iOS App (MapKit + GPT 기반 장소 추천)
 
 📱 프로젝트 개요
@@ -7,7 +7,7 @@ DoOrNot은 사용자의 감정 상태와 함께할 인원 수, 그리고 현재 
 
 주요 기능
 
-1. 🔐 로그인 및 회원가입 ()
+1. 로그인 및 회원가입 ()
 
 이메일/비밀번호 기반 로그인 및 회원가입 기능 제공
 
@@ -23,7 +23,7 @@ Stepper를 통해 함께할 인원 수를 선택
 
 선택된 감정과 인원 수를 다음 화면으로 전달
 
-3. 🧠 GPT 기반 장소 추천
+3. GPT 기반 장소 추천
 
 OpenAI GPT API에 감정 + 인원 수 정보를 전달하여 텍스트 기반 장소 목록 요청
 
@@ -33,7 +33,7 @@ GPT 프롬프트 예시:
 
 응답된 문자열을 파싱하여 버튼으로 구성하고, 선택 시 해당 장소를 지도에 표시
 
-4. 🗺 MapKit을 활용한 지도 뷰
+4. MapKit을 활용한 지도 뷰
 
 추천 장소 버튼을 클릭하면 해당 키워드로 장소 검색 후 마커 추가
 
@@ -41,7 +41,7 @@ GPT 프롬프트 예시:
 
 마커 클릭 없이도 지도에 시각적으로 장소 확인 가능
 
-5. ⭐ 즐겨찾기 기능 (UserDefaults 기반)
+5. 즐겨찾기 기능 (UserDefaults 기반)
 
 추천된 장소를 즐겨찾기로 저장
 
@@ -49,7 +49,7 @@ GPT 프롬프트 예시:
 
 즐겨찾기 화면에서 테이블 뷰와 지도 마커로 저장된 장소들을 다시 확인 가능
 
-6. 📍즐겨찾기 화면 (FavoritesViewController)
+6. 즐겨찾기 화면 (FavoritesViewController)
 
 지도(MapKit)와 테이블 뷰를 함께 표시하여 시각적 + 리스트 형태 제공
 
@@ -57,7 +57,7 @@ GPT 프롬프트 예시:
 
 장소 이름 리스트는 UITableView로 구현
 
-🗂 주요 화면 구성
+  주요 화면 구성
 
 ViewController
 
@@ -95,6 +95,7 @@ PlaceRecommendViewController
 
 GPT API 호출, 지도 마커 표시, 즐겨찾기 버튼 포함
 
+
 FavoritesViewController
 
 즐겨찾기 확인 화면
@@ -111,29 +112,8 @@ UI 프레임워크: UIKit + Storyboard
 
 AI 추천: OpenAI GPT API (gpt-3.5-turbo)
 
-백엔드 인증: Firebase Authentication (이메일/비밀번호)
-
 데이터 저장: UserDefaults + Codable 구조체
 
-📦 즐겨찾기 저장 구조 예시
-
-struct FavoritePlace: Codable {
-    let name: String
-    let latitude: Double
-    let longitude: Double
-}
-
-func saveFavoritePlace(name: String, latitude: Double, longitude: Double) {
-    var current = [FavoritePlace]()
-    if let data = UserDefaults.standard.data(forKey: "favorites"),
-       let saved = try? JSONDecoder().decode([FavoritePlace].self, from: data) {
-        current = saved
-    }
-    current.append(FavoritePlace(name: name, latitude: latitude, longitude: longitude))
-    if let encoded = try? JSONEncoder().encode(current) {
-        UserDefaults.standard.set(encoded, forKey: "favorites")
-    }
-}
 
  실행 방법
 

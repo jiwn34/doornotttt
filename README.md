@@ -68,6 +68,7 @@ ViewController
 LoginViewController
 
 로그인 및 회원가입 화면
+
 <img width="303" alt="스크린샷 2025-06-17 오전 3 11 53" src="https://github.com/user-attachments/assets/191eb797-ee86-4d3b-86df-0d0c9a31d524" />
 
 <img width="306" alt="스크린샷 2025-06-17 오전 3 12 04" src="https://github.com/user-attachments/assets/ca519cce-1129-417a-9381-983a80995519" />
@@ -116,6 +117,11 @@ FavoritesViewController
 <img width="249" alt="스크린샷 2025-06-17 오전 7 32 32" src="https://github.com/user-attachments/assets/67931ca9-b0fa-42e1-8de0-84abe07a78cd" />
 
 MapKit 마커 + 테이블 리스트 제공
+
+
+<img width="873" alt="스크린샷 2025-06-17 오전 11 18 32" src="https://github.com/user-attachments/assets/8e02d6e3-5a1f-465d-bf4f-87886e22648f" />
+
+
 
 🛠 기술 스택
 

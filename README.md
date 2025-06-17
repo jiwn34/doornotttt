@@ -1,4 +1,4 @@
-<img width="425" alt="스크린샷 2025-06-17 오전 7 31 42" src="https://github.com/user-attachments/assets/ff246fc2-ffcd-4857-b178-c35b1c215931" /><img width="258" alt="스크린샷 2025-06-17 오전 10 46 44" src="https://github.com/user-attachments/assets/a93b17a0-9d1b-43f4-ba31-6d0301112f58" />###doornotttt
+###doornotttt
 DoOrNot iOS App (MapKit + GPT 기반 장소 추천)
 
 📱 프로젝트 개요

@@ -5,17 +5,17 @@ DoOrNot iOS App (MapKit + GPT 기반 장소 추천)
 
 DoOrNot은 사용자의 감정 상태와 함께할 인원 수, 그리고 현재 위치를 기반으로 OpenAI의 GPT API를 활용해 어울리는 장소를 추천해주는 iOS 앱입니다. 추천된 장소는 지도에 표시되며, 즐겨찾기로 저장하여 나중에 다시 확인할 수 있는 기능도 제공합니다.
 
-🧩 주요 기능
+주요 기능
 
-1. 🔐 로그인 및 회원가입 (Firebase Auth 기반)
+1. 🔐 로그인 및 회원가입 ()
 
-Firebase Authentication을 이용하여 이메일/비밀번호 기반 로그인 및 회원가입 기능 제공
+이메일/비밀번호 기반 로그인 및 회원가입 기능 제공
 
 로그인 성공 시 감정 선택 화면으로 전환
 
 회원가입은 별도의 화면으로 이동하여 이메일/비밀번호 등록 가능
 
-2. 😊 감정 및 인원 선택
+2. 감정 및 인원 선택
 
 사용자가 현재 느끼는 감정을 버튼 형태로 선택
 
@@ -135,7 +135,7 @@ func saveFavoritePlace(name: String, latitude: Double, longitude: Double) {
     }
 }
 
-🧪 실행 방법
+ 실행 방법
 
 Xcode에서 프로젝트 열기
 
@@ -145,7 +145,7 @@ PlaceRecommendViewController.swift 내 OpenAI API 키 입력
 
 시뮬레이터 또는 실제 디바이스에서 실행
 
-🚧 향후 개발 아이디어 / 개선사항
+ 향후 개발 아이디어 / 개선사항
 
 실시간 이미지 연동
 
@@ -157,5 +157,5 @@ PlaceRecommendViewController.swift 내 OpenAI API 키 입력
 
 개발자: 스마트콘텐츠학과 3학년 김지원
 
-감사합니다 🙏 사용자의 일상 속 선택을 더 편리하게, DoOrNot이 함께합니다!
+감사합니다
 

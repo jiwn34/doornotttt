@@ -68,7 +68,8 @@ ViewController
 LoginViewController
 
 로그인 및 회원가입 화면
-<img width="<img width="306" alt="스크린샷 2025-06-17 오전 3 12 04" src="https://github.com/user-attachments/assets/ca519cce-1129-417a-9381-983a80995519" />
+
+<img width="306" alt="스크린샷 2025-06-17 오전 3 12 04" src="https://github.com/user-attachments/assets/ca519cce-1129-417a-9381-983a80995519" />
 
 <img width="428" alt="스크린샷 2025-06-17 오전 3 48 35" src="https://github.com/user-attachments/assets/0a55107b-173e-44a5-8ef5-183d9301469d" />
 
@@ -81,6 +82,7 @@ SignUpViewController
 이메일/비밀번호 입력
 
 EmotionSelectViewController
+
 <img width="448" alt="스크린샷 2025-06-17 오전 6 44 01" src="https://github.com/user-attachments/assets/e755c0f0-ffab-4f44-8d3d-b710aa5bcc1c" />
 
 감정 선택 화면
@@ -90,12 +92,14 @@ EmotionSelectViewController
 PeopleCountViewController
 
 인원 수 선택
+
 <img width="434" alt="스크린샷 2025-06-17 오전 6 44 25" src="https://github.com/user-attachments/assets/5122ca9e-162d-4d55-976d-fb7343b9f589" />
 <img width="429" alt="스크린샷 2025-06-17 오전 6 44 51" src="https://github.com/user-attachments/assets/e99682f8-0397-49ed-abac-c5580e6f876a" />
 
 Stepper 이용, 다음으로 전환
 
 PlaceRecommendViewController
+
 <img width="427" alt="스크린샷 2025-06-17 오전 6 56 41" src="https://github.com/user-attachments/assets/34a769a0-99f9-4a2e-886d-7decbced60d8" />
 <img width="418" alt="스크린샷 2025-06-17 오전 6 56 21" src="https://github.com/user-attachments/assets/777b9243-7f7f-414f-bb8f-1ebea691c20a" />
 
@@ -107,6 +111,7 @@ GPT API 호출, 지도 마커 표시, 즐겨찾기 버튼 포함
 FavoritesViewController
 
 즐겨찾기 확인 화면
+
 <img width="249" alt="스크린샷 2025-06-17 오전 7 32 32" src="https://github.com/user-attachments/assets/67931ca9-b0fa-42e1-8de0-84abe07a78cd" />
 
 MapKit 마커 + 테이블 리스트 제공
